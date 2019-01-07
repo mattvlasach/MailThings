@@ -9,11 +9,11 @@ This project includes an AppleScript that does the Mail -> Things To Do creation
 
 Hope you find it helpful!
 
-#Requirements
+# Requirements
 * Things 3 (or later) for Mac
 * macOS 10.4 or later 
 
-#Installation
+# Installation
 1. Download repository to your mac
 2. Edit "Things3_Import_Script.scpt" and replace the Mail "Account" with the name of the Mailbox you want to monitor for flagged messages.
 3. Move "Things3_Import_Script.scpt" to somewhere in your home directory, e.g. ~/Library/Documents
@@ -21,6 +21,6 @@ Hope you find it helpful!
 5. Move "com.vlasach.MailToThings.plist" into ~/Library/LaunchAgents/
 6. In Terminal, set the LaunchAgent to occur at startup and start running immediately: `launchctl load ~/Library/LaunchAgents/com.vlasach.MailToThings.plist`
 
-#Testing
+# Testing
 After modifying the AppleScript, you can test things are working by launching it in Script Editor.  Flag a message then execute a script.  If all goes well the To Do will be created in Things.
 
